@@ -3,9 +3,9 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import img1 from '../assets/photos/1.PNG'
-import img2 from '../assets/photos/2.png'
-import img3 from '../assets/photos/3.png'
-import img4 from '../assets/photos/4.png'
+import img2 from '../assets/photos/2.PNG'
+import img3 from '../assets/photos/3.PNG'
+import img4 from '../assets/photos/4.PNG'
 
 function Hero() {
 
