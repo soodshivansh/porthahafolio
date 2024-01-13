@@ -25,7 +25,7 @@ function Navbar() {
             <li className=''><a>Work</a></li>
           </ul>
         </nav>
-        <div className='text-[#aaa] text-xl font-lato hidden md:block'>
+        <div className='text-[#aaa] text-xl font-lato hidden mdx:block'>
           <button>
             <span className="box">
               Contact
@@ -42,6 +42,7 @@ function Navbar() {
                 <h1 className='text-2xl font-lato'>Home</h1>
                 <h1 className='text-2xl font-lato'>About</h1>
                 <h1 className='text-2xl font-lato'>Work</h1>
+                <h1 className='text-2xl font-lato'>Contact</h1>
             </div>
         </div>
       </div>

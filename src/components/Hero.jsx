@@ -20,40 +20,40 @@ function Hero() {
 
   return (
     <>
-      <div className='h-[60vh] justify-end border flex flex-col gap-20'>
+      <div className='h-[60vh] justify-end flex flex-col gap-20'>
           <div className='flex flex-col justify-end gap-5 sm:pt-48 -pt-20 sm:pl-20 pl-10'>
             <p className='text-white font-lato text-xl'>Hey, I am </p>
             <h1 className='text-white md:text-7xl sm:text-6xl text-4xl font-medium font-lemon'>Shivansh Sood</h1>
             <p className='text-white md:w-[70%] w-[97%] md:text-2xl text-xl font-normal font-lato'> a passionate Full-Stack Developer, dedicated about creating innovative and user-friendly web solutions.</p>
           </div>
-          <div className='text-white flex sm:hidden h-[40vh] -mb-32'>
+          <div className='text-white flex lg:hidden h-[40vh] -mb-32'>
             <div className='overflow-hidden'>
-              <Slider {...settings} className='w-[800px]'>
+              <Slider {...settings} className='sm:w-full w-[800px]'>
                 <div>
                   <div className='glass h-20 w-48 m-10'>
-                    1
+                    
                   </div>
                 </div>
                 <div>
                   <div className='glass h-20 w-48 m-10'>
-                    2
+                    
                   </div>
                 </div>
                 <div>
                   <div className='glass h-20 w-48 m-10'>
-                    3
+                    
                   </div>
                 </div>
                 <div>
                   <div className='glass h-20 w-48 m-10'>
-                    4
+                    
                   </div>
                 </div>
               </Slider>
             </div>
         </div>
       </div>
-      <div className='hidden sm:flex items-center h-[40vh] w-full justify-around pr-24 pl-24'>
+      <div className='hidden lg:flex items-center h-[40vh] w-full justify-around lg:pr-24 lg:pl-24 pl-10 pr-10'>
             <div className='glass h-28 w-72'>
               
             </div>
