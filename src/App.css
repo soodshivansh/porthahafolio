@@ -667,4 +667,13 @@ nav.fill ul li a:hover:after {
     background: transparent;
   }
 
-  
+  /* glass effect */
+
+  .glass{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 1px 5px 0 white;
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }

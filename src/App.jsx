@@ -9,7 +9,7 @@ function App() {
     <>
       <Bg />
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
     </>
   )
 }
