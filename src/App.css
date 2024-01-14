@@ -735,4 +735,31 @@ nav.fill ul li a:hover:after {
   .button2:active {
     transform: scale(0.95);
   }
+
+  /* // scrol bar */
+
+  
+body {
+  --sb-track-color: #888888;
+  --sb-thumb-color: #333333;
+  --sb-size: 10px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 11px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 11px;
+  
+  }
   
