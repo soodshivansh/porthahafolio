@@ -13,9 +13,18 @@ function Hero() {
     <>
       <div className='h-[60vh] sm:justify-end justify-start flex flex-col'>
           <div className='flex flex-col justify-end gap-5 sm:pt-48 -pt-20 sm:pl-20 pl-10'>
-              <p className='text-white font-lato text-xl'>Hey, I am </p>
+              <p className='text-gray-400 flex items-center tracking-wide font-lato font-semibold text-3xl'>
+              <button className='button2'>
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                  <i class="fa-solid fa-face-grin"></i>
+                  </div>
+                </div>
+                <span>Hey</span>
+              </button><div className='ml-5'>
+                I am</div></p>
               <h1 className='text-white md:text-7xl sm:text-6xl text-4xl font-medium font-lemon'>Shivansh Sood</h1>
-              <p className='text-white md:w-[70%] w-[97%] md:text-2xl text-xl font-normal font-lato'> a passionate Full-Stack Developer, dedicated about creating innovative and user-friendly web solutions.</p>
+              <p className='text-gray-400 tracking-wide md:w-[70%] w-[97%] font-semibold md:text-3xl text-xl font-lato'> a passionate Full-Stack Developer, dedicated about creating innovative and user-friendly web solutions.</p>
           </div>
       </div>
       <div className='w-full flex flex-col justify-center items-start'>

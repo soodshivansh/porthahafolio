@@ -686,3 +686,53 @@ nav.fill ul li a:hover:after {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
+
+  /* hello button */
+
+  .button2 {
+    background: #212121;
+    fill: rgb(155, 153, 153);
+    padding: 0.3em 0.5em;
+    /* padding-left: 0.9em; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .button2 span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button2 .fa-solid{
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .button2:hover {
+    background: #000;
+  }
+  
+  .button2:hover .svg-wrapper {
+    transform: scale(1.25);
+    transition: 0.5s linear;
+  }
+  
+  .button2:hover .fa-solid {
+    transform: translateX(0.9em) scale(1.1);
+    color: #ffc83d;
+  }
+  
+  .button2:hover span {
+    opacity: 0;
+    transition: 0.5s linear;
+  }
+  
+  .button2:active {
+    transform: scale(0.95);
+  }
+  
