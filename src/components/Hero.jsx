@@ -11,7 +11,7 @@ function Hero() {
 
   return (
     <>
-      <div className='h-[60vh] sm:justify-end justify-start flex flex-col'>
+      <div className='h-[60vh] sm:justify-end justify-center flex flex-col'>
           <div className='flex flex-col justify-end gap-5 sm:pt-48 -pt-20 sm:pl-20 pl-10'>
               <p className='text-gray-400 flex items-center tracking-wide font-lato font-semibold text-3xl'>
               <button className='button2'>
