@@ -11,19 +11,19 @@ function Hero() {
 
   return (
     <>
-      <div className='h-[60vh] sm:justify-end justify-center flex flex-col'>
-          <div className='flex flex-col justify-end gap-5 sm:pt-48 -pt-20 sm:pl-20 pl-10'>
+      <div className='h-[60vh] mb-[10vh] sm:justify-end justify-center flex flex-col'>
+          <div className='flex flex-col justify-end gap-5 sm:pt-48 -pt-20 sm:pl-32 pl-10'>
               <p className='text-gray-400 flex items-center tracking-wide font-lato font-semibold text-3xl'>
               <button className='button2'>
-                <div class="svg-wrapper-1">
-                  <div class="svg-wrapper">
-                  <i class="fa-solid fa-face-grin"></i>
+                <div className="svg-wrapper-1">
+                  <div className="svg-wrapper">
+                  <i className="fa-solid fa-face-grin"></i>
                   </div>
                 </div>
                 <span>Hey</span>
               </button><div className='ml-5'>
                 I am</div></p>
-              <h1 className='text-white md:text-7xl sm:text-6xl text-4xl font-medium font-lemon'>Shivansh Sood</h1>
+              <h1 className='text-white md:text-7xl sm:text-6xl font-bold text-4xl font-dance'>Shivansh Sood</h1>
               <p className='text-gray-400 tracking-wide md:w-[70%] w-[97%] font-semibold md:text-3xl text-xl font-lato'> a passionate Full-Stack Developer, dedicated about creating innovative and user-friendly web solutions.</p>
           </div>
       </div>

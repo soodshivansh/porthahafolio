@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -22,9 +23,9 @@ function Navbar() {
         </div>
         <nav className='stroke hidden sm:block'>
           <ul className='flex gap-12 text-xl font-lato'>
-            <li className=''><a>Home</a></li>
-            <li className=''><a>About</a></li>
-            <li className=''><a>Work</a></li>
+            <Link to="/"><li className=''><a>Home</a></li></Link>
+            <Link to="/about"><li className=''><a>About</a></li></Link>
+            <Link to="/work"><li className=''><a>Work</a></li></Link>
           </ul>
         </nav>
         <div className='text-[#aaa] text-xl font-lato hidden mdx:block'>
