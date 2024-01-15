@@ -7,7 +7,7 @@ function Socials() {
 
   return (
     <>
-      <div className="text-white w-full h-screen md:p-32 sm:p-10 p-2 mt-12 flex items-center sm:mb-0 font-genos lg:text-7xl sm:text-5xl text-3xl text-center">
+      <div className="text-white w-full h-[80vh] md:p-32 sm:p-10 p-2 mt-12 flex items-center sm:mb-0 font-genos lg:text-7xl sm:text-5xl text-3xl text-center">
         <h1>
           Navigating the road of innovation, trying new things, and casually
           strolling towards coding perfection – one experiment at a{" "}
