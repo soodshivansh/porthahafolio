@@ -13,7 +13,7 @@ function Hero() {
     <>
       <div className='h-[60vh] mb-[10vh] sm:justify-end justify-center flex flex-col'>
           <div className='flex flex-col justify-end gap-5 sm:pt-48 -pt-20 sm:pl-32 pl-10'>
-              <p className='text-gray-400 flex items-center tracking-wide font-lato font-semibold text-3xl'>
+              <p className='text-gray-400 flex items-center tracking-wide font-lato font-semibold text-2xl'>
               <button className='button2'>
                 <div className="svg-wrapper-1">
                   <div className="svg-wrapper">

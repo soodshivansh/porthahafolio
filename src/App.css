@@ -24,7 +24,7 @@
 /*--------------star animation--------------------*/
 
 body {
-  background-color: #0e0e0e;
+  background-color: #121313;
     margin: 0;
     /* overflow: hidden; */
   }
@@ -626,10 +626,10 @@ nav.fill ul li a:hover:after {
     content: '';
     left: 0;
     bottom: 0;
-    height: 4px;
+    height: 3px;
     width: 100%;
-    border-bottom: 4px solid transparent;
-    border-left: 4px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
     box-sizing: border-box;
     transform: translateX(100%);
   }
@@ -640,9 +640,9 @@ nav.fill ul li a:hover:after {
     top: 0;
     left: 0;
     width: 100%;
-    height: 4px;
-    border-top: 4px solid transparent;
-    border-right: 4px solid transparent;
+    height: 3px;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
     box-sizing: border-box;
     transform: translateX(-100%);
   }
@@ -652,14 +652,14 @@ nav.fill ul li a:hover:after {
   }
   
   .box:hover:before {
-    border-color: #262626;
+    border-color: #aaa;
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .3s;
   }
   
   .box:hover:after {
-    border-color: #262626;
+    border-color: #aaa;
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .5s;
@@ -738,8 +738,8 @@ nav.fill ul li a:hover:after {
 
   
 body {
-  --sb-track-color: #888888;
-  --sb-thumb-color: #0e0e0e;
+  --sb-track-color: #777777;
+  --sb-thumb-color: #121313;
   --sb-size: 10px;
 
   scrollbar-color: var(--sb-thumb-color) 
