@@ -10,24 +10,25 @@ import Work from "./components/Work";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
+
   return (
     <>
-      <Navbar />
-      <Bg />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Hero />
-              <Socials />
-              <Footer />
-            </>
-          }
-        />
-        <Route path="/about" element={<About />} />
-        <Route path="/work" element={<Work />} />
-      </Routes>
+        <Navbar />
+        <Bg />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <Socials />
+                <Footer />
+              </>
+            }
+          />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Work />} />
+        </Routes>
     </>
   );
 }
