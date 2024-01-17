@@ -12,7 +12,7 @@ function Socials() {
         <h1>
           <span className="text-[#1974D2]">Navigating</span> the road of{" "}
           <span className="text-[#4D88FF]">innovation</span>, trying{" "}
-          new things, and{" "}
+          <span className="text-[#fba3ad]">new things</span>, and{" "}
           <span className="text-[#8287e0]">casually</span>{" "}
           <span className="text-[#8287e0]">strolling</span> towards{" "}
           <span className="text-white">coding perfection</span> – one{" "}
