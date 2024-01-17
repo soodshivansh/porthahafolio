@@ -27,7 +27,7 @@ function FadeIn({ children }) {
         }}
         initial="hidden"
         animate={maincontrols}
-        transition={{ duration: 0.5, delay: 0.6 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
         ref={ref1}
       >
         {children}

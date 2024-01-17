@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
 import About from "./components/About";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -28,6 +29,7 @@ function App() {
           />
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
     </>
   );
