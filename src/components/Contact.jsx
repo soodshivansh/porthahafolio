@@ -4,45 +4,74 @@ function Contact() {
 
   return (
     <>
-      <div className="w-full md:my-10 my-28 h-[70vh] md:px-28 flex flex-col md:flex-row items-center justify-center gap-10">
-        <div className="md:w-[50%] w-full h-full flex px-12 md:px-0">
-          <h1 className="bg-gradient-to-r from-blue-600 to-white bg-clip-text text-transparent font-genos lg:text-8xl text-6xl font-semibold">
-            Let's get started
-          </h1>
-        </div>
-        <div className="flex md:w-full h-full text-gray-400 p-5 md:p-0">
-          <form className="flex flex-col p-5 md:text-[36px] text-[26px] font-lato font-semibold leading-loose  ">
-            <p>
-              My name is
-              <input
-                placeholder="Your name"
-                className="md:mx-6 text-white w-[50%] md:text-3xl text-2xl max-w-fit text-start px-5 pb-2 bg-transparent border-b border-gray-500 outline-none overflow-hidden"
-                type="text"
-                style={{ "text-overflow": "ellipsis", "white-space": "nowrap" }}
-              />
-              and I have a
-              <input
-                placeholder="Project, Job, etc"
-                className="md:mx-6 text-white w-[50%] md:text-3xl text-2xl max-w-fit text-start px-5 pb-2 bg-transparent border-b border-gray-500 outline-none overflow-hidden"
-                type="text"
-                style={{ "text-overflow": "ellipsis", "white-space": "nowrap" }}
-              />
-              that needs help. You can reach me at
-              <input
-                placeholder="Your email address"
-                class="md:mx-6 text-white w-[50%] md:text-3xl text-2xl max-w-fit text-start px-5 pb-2 bg-transparent border-b border-gray-500 outline-none overflow-hidden"
-                type="email"
-                style={{ "text-overflow": "ellipsis", "white-space": "nowrap" }}
-              />
-              to get things started.
-            </p>
-            <button
-              className="flex text-green-900 max-w-fit justify-start mt-10 hover:text-green-500 hover:translate-x-5 duration-300"
-              type="submit"
-            >
-              -- Send
+      <div className='flex w-full px-40 gap-20 pt-20 text-white'>
+        <div className='w-[70%]'>
+            <h1 className='text-7xl font-lato pb-36'>Lets get Started</h1>
+            <div className='w-full h-[2px] bg-slate-700' ></div>
+            <form>
+
+              <div className='flex gap-20 p-10'>
+                <div className='font-genos'>
+                  <p className='text-4xl'>01</p>
+                </div>
+                <div className='flex flex-col gap-10 font-lato'>
+                  <p className='text-3xl'>Whats your name?</p>
+                  <input class="bg-transparent text-gray-400 text-2xl border-none outline-none hover:border-none focus:border-none" type="text" placeholder="Shivansh Sood *" />
+                </div>
+              </div>
+              <div className='w-full h-[2px] bg-slate-700' ></div>
+              <div className='flex gap-20 p-10'>
+                <div className='font-genos'>
+                  <p className='text-4xl'>02</p>
+                </div>
+                <div className='flex flex-col gap-10 font-lato'>
+                  <p className='text-3xl'>Whats your contact?</p>
+                  <input class="bg-transparent text-gray-400 overflow-ellipsis text-2xl border-none outline-none hover:border-none focus:border-none" type="text" placeholder="soodshivansh50@gmail.com / +91 12345 *" />
+                </div>
+              </div>
+              <div className='w-full h-[2px] bg-slate-700' ></div>
+              <div className='flex gap-20 p-10'>
+                <div className='font-genos'>
+                  <p className='text-4xl'>03</p>
+                </div>
+                <div className='flex flex-col gap-10 font-lato'>
+                  <p className='text-3xl'>Whats services are you looking for?</p>
+                  <input class="bg-transparent text-gray-400 overflow-ellipsis text-2xl border-none outline-none hover:border-none focus:border-none" type="text" placeholder="Web development, *" />
+                </div>
+              </div>
+              <div className='w-full h-[2px] bg-slate-700' ></div>
+              <div className='flex gap-20 p-10'>
+                <div className='font-genos'>
+                  <p className='text-4xl'>04</p>
+                </div>
+                <div className='flex flex-col gap-10 font-lato'>
+                  <p className='text-3xl'>Your message.</p>
+                  <input row="10" class="bg-transparent text-gray-400 overflow-ellipsis text-2xl border-none outline-none hover:border-none focus:border-none" type="text" placeholder="Hey can you help me with" />
+                </div>
+              </div>
+            </form>
+            <button className='text-3xl text-blue-500 p-10 hover:translate-x-5 duration-300'>
+              Send {"->"}
             </button>
-          </form>
+
+        </div>
+        <div className='w-[30%] flex flex-col gap-20'>
+            <div className='flex flex-col gap-5'>
+              <p className='font-genos text-2xl text-gray-400'>Contact Details</p>
+              <p className='text-lg font-lato'>shivansh2328.be22@chitkara.edu.in</p>
+              <p className='text-lg font-lato'>soodshivansh50@gmail.com</p>
+            </div>
+            <div className='flex flex-col gap-5'>
+              <p className='font-genos text-2xl text-gray-400'>location</p>
+              <p className='text-lg font-lato'>Indirapuram, Uttar Pradesh, India</p>
+              <p className='text-lg font-lato'>201014</p>
+            </div>
+            <div className='flex flex-col gap-5'>
+              <p className='font-genos text-2xl text-gray-400'>Socials</p>
+              <p className='text-lg font-lato'>Github - github.com/soodshivansh</p>
+              <p className='text-lg font-lato'>Linkedin - linkedin.com/in/sood-shivansh</p>
+              <p className='text-lg font-lato'>Instagram - instagram.com/soodshivansh</p>
+            </div>
         </div>
       </div>
     </>
