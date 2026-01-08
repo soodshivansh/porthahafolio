@@ -58,7 +58,6 @@ function Contact() {
         <div className='w-[30%] flex flex-col gap-20'>
             <div className='flex flex-col gap-5'>
               <p className='font-genos text-2xl text-gray-400'>Contact Details</p>
-              <p className='text-lg font-lato'>shivansh2328.be22@chitkara.edu.in</p>
               <p className='text-lg font-lato'>soodshivansh50@gmail.com</p>
             </div>
             <div className='flex flex-col gap-5'>
